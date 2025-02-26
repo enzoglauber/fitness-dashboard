@@ -11,7 +11,7 @@ export function CardsCalendar() {
   return (
     <Card className="max-w-[300px]">
       <CardHeader>
-        <CardTitle>Streak Days</CardTitle>
+        <CardTitle className="text-lg font-normal font-bebas-neue">Streak Days</CardTitle>
         <CardDescription>
           You're on a streak! You have stayed on track with your diet for <strong>{streakDays}</strong> days in a row. Keep it up!
         </CardDescription>

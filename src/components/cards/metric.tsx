@@ -61,7 +61,7 @@ export function CardsMetric() {
   return (
     <Card>
       <CardHeader>
-        <CardTitle>Exercise Minutes</CardTitle>
+        <CardTitle className="text-lg font-normal font-bebas-neue">Exercise Minutes</CardTitle>
         <CardDescription>
           Your exercise minutes are ahead of where you normally are.
         </CardDescription>

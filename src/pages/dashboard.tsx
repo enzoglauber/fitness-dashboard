@@ -11,17 +11,17 @@ export function Dashboard() {
     <div className="container mx-auto py-4 px-4 md:px-4 lg:px-6">
       <div className="flex flex-wrap w-full max-w-screen-xl">
         <div className="flex flex-col justify-center self-start mb-4 w-full lg:w-1/3">
-          <div className="flex gap-4 justify-center mt-1">
+          <div className="flex gap-4 justify-center">
+            <CardsCalendar />
+          </div>
+
+          <div className="flex gap-4 justify-center mt-6">
             <AnimatedButton size={"lg"} onClick={() => alert("Workout Started!")}>
               Start Workout
             </AnimatedButton>
             <AnimatedButton size={"lg"} onClick={() => alert("Viewing Progress!")}>
               View Progress
             </AnimatedButton>
-          </div>
-
-          <div className="flex gap-4 justify-center mt-6">
-            <CardsCalendar />
           </div>
         </div>
         <div className="mb-4 w-full lg:w-2/3">
