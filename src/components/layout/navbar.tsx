@@ -6,7 +6,7 @@ export const Navbar = () => {
 
   useEffect(() => {
     const handleScroll = () => {
-      const sticky = window.scrollY > 68
+      const sticky = window.scrollY > 80
       setIsSticky(sticky);
     };
 
