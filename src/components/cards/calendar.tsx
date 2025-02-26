@@ -9,7 +9,7 @@ export function CardsCalendar() {
   const streakDays = differenceInDays(end, start)
 
   return (
-    <Card className="max-w-[300px]">
+    <Card className="lg:max-w-[300px]">
       <CardHeader>
         <CardTitle className="text-lg font-normal font-bebas-neue">Streak Days</CardTitle>
         <CardDescription>
