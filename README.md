@@ -16,6 +16,9 @@ To start the development server, use:
 npm run dev
 ```
 
+## Live Demo
+You can access the live demo of the application [here](https://fitness-dashboard-zeta-black.vercel.app/).
+
 ## Important Requirement
 Please complete this assignment independently without using any code generators or AI tools (such as Copilot, ChatGPT, etc.). Feel free to use Google for documentation and general research purposes.
 
